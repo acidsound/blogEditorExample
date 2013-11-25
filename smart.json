@@ -1,0 +1,11 @@
+{
+  "packages": {
+    "medium-editor-images-plugin": {
+      "git": "https://github.com/Appsoulute/medium-editor-images-plugin-meteor.git"
+    },
+    "bootstrap3-less": {},
+    "bootstrap-3": {},
+    "npm": {},
+    "iron-router": {}
+  }
+}
