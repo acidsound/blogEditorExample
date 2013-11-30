@@ -30,7 +30,7 @@ if (Meteor.isServer) {
         var fs = Npm.require('fs');
         this.response.end(
           'data:'+mime.lookup(uploadPath)+';base64,'+
-            fs.readFileSync(uploadPath).toString("base64")
+          ((Meteor._wrapAsync(fs.readFile))(uploadPath)).toString("base64")
         );
       }
     })
