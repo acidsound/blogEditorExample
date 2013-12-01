@@ -17,6 +17,11 @@ body {
     border-bottom: 1px solid #dbdbdb;
 }
 
+/* patch for bootstrap */
+.editable>p {
+    margin: 16px 0 16px;
+}
+
 h3 {
     font-size: 32px;
     line-height: 42px;
