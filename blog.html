@@ -1,9 +1,9 @@
 <head>
   <title>blog</title>
 </head>
-<body>
-  {{>post}}
-</body>
+<template name="layout">
+  {{yield}}
+</template>
 
 <template name="post">
   <div class="container">
